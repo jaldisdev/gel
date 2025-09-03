@@ -1862,6 +1862,8 @@ class PointerCommand(
         ID_ALLOWLIST = (
             'std::uuid_generate_v1mc',
             'std::uuid_generate_v4',
+            'std::uuid_generate_v7j',
+            'ext::jaldis::generate_typed_id',
         )
 
         while (

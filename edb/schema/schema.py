@@ -81,6 +81,7 @@ STD_MODULES = (
     sn.UnqualName('std::pg'),
     sn.UnqualName('std::_test'),
     sn.UnqualName('std::fts'),
+    sn.UnqualName('jaldis'),
     sn.UnqualName('std::lang'),
     sn.UnqualName('std::lang::go'),
     sn.UnqualName('std::lang::js'),
@@ -109,6 +110,7 @@ STD_SOURCES = (
     sn.UnqualName('pg'),
     sn.UnqualName('fts'),
     sn.UnqualName('net'),
+    sn.UnqualName('jaldis'),
 )
 TESTMODE_SOURCES = (
     sn.UnqualName('_testmode'),
